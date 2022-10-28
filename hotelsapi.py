@@ -6,7 +6,7 @@ def getHotelsByName(name):
     querystring = {"q":name,"locale":"en_US","langid":"1033","siteid":"300000001"}
 
     headers = {
-        "X-RapidAPI-Key": "498beeb34fmsh7558841455add94p17d283jsn987de2c3f201",
+        "X-RapidAPI-Key": "f318e8573amsha7246f29e8d7de7p1c368fjsn5b4af82f4ba1",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -39,7 +39,7 @@ def getReviewById(hotelId):
     }
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "498beeb34fmsh7558841455add94p17d283jsn987de2c3f201",
+        "X-RapidAPI-Key": "f318e8573amsha7246f29e8d7de7p1c368fjsn5b4af82f4ba1",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -66,7 +66,7 @@ def getHotelDetailById(hotelId):
     }
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "498beeb34fmsh7558841455add94p17d283jsn987de2c3f201",
+        "X-RapidAPI-Key": "f318e8573amsha7246f29e8d7de7p1c368fjsn5b4af82f4ba1",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -97,7 +97,7 @@ def getValue(hotelId):
     }
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "498beeb34fmsh7558841455add94p17d283jsn987de2c3f201",
+        "X-RapidAPI-Key": "f318e8573amsha7246f29e8d7de7p1c368fjsn5b4af82f4ba1",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
